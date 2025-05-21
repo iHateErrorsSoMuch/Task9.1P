@@ -27,7 +27,7 @@
         </activity>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB-0u148TNi6woTqWlApLf0Kh5SQBQzdW8" />
+            android:value="MY_API_KEY" />//I have removed the API key that i generated from here, because of privacy issues!
 
     </application>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
