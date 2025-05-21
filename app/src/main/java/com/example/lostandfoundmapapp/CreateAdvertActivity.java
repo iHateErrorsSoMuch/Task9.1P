@@ -45,7 +45,7 @@ public class CreateAdvertActivity extends AppCompatActivity {
         setContentView(R.layout.activity_create_advert);
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyB-0u148TNi6woTqWlApLf0Kh5SQBQzdW8");
+            Places.initialize(getApplicationContext(), "MY_API_KEY");//I have removed the API key that i generated from here, because of privacy issues!
         }
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
